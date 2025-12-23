@@ -125,11 +125,12 @@ body {
   color: rgb(83, 83, 83);
   letter-spacing: 5px;
   cursor: pointer;
-  transition: opacity 0.5s ease, visibility 0.5s ease;
-}
-
-.top {
   position: absolute;
+  top: 125px;
+  z-index: -1;
+  transition: top 0.5s ease-out;
+}
+.top {
   top: -425px;
 }
 
